@@ -13,10 +13,10 @@ This project is a BERT-based emotion classification system that not only detects
 
 .
 ├── app.py                      # Streamlit app for UI and explainability
-├── training_and_saving.py     # Code to train the BERT model and save it
+├── training_and_saving_model.py     # Code to train the BERT model and save it
 ├── validation_and_testing.py  # Code to validate/test the model and compute accuracy
 ├── requirements.txt           # All required Python libraries
-├── tweetsfolder/              # Folder containing training, validation, and test datasets
+├── tweetsdataset/              # Folder containing training, validation, and test datasets
 │   ├── training.csv
 │   ├── validation.csv
 │   └── test.csv
